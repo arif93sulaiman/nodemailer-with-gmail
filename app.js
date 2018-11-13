@@ -43,8 +43,8 @@ app.post('/send', (req, res) => {
 	    /*port: 587,
 	    secure: false, // use TLS*/
 	    auth: {
-	        user: 'arifhip1993@gmail.com',
-	        pass: 'Arif1993'
+	        user: '*****@gmail.com',
+	        pass: '******'
 	    },
 	    tls: {
 	        // do not fail on invalid certs
@@ -55,7 +55,7 @@ app.post('/send', (req, res) => {
 	// setup email data with unicode symbols
     let mailOptions = {
         from: '"Arif Nodejs 👻" <nodejstest@gmail.com>', // sender address
-        to: 'arifhip1993@gmail.com', // list of receivers
+        to: '******@gmail.com', // list of receivers
         subject: 'Nodejs Sent Email ✔', // Subject line
         text: 'Lets Make it Happened', // plain text body
         html: letter // html body
